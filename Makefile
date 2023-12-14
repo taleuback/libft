@@ -6,7 +6,7 @@
 #    By: ocrobin <ocrobin@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/20 14:20:30 by ocrobin           #+#    #+#              #
-#    Updated: 2023/12/07 15:35:36 by ocrobin          ###   ########.fr        #
+#    Updated: 2023/12/13 13:14:39 by ocrobin          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -56,6 +56,7 @@ bonus : $(OBJS_B) $(OBJS)
 
 clean:
 		rm -rf $(OBJS)
+		rm -rf $(OBJS_B)
 		
 fclean: clean
 		rm -f $(NAME)
